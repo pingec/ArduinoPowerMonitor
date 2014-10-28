@@ -7,7 +7,7 @@ Arduino 3phase AC voltage, current and power monitor (uses EmonLib), outputs to 
 Depends on emontx's lib EmonLib (a working version is included and should be installed by copying the EmonLib folder to wherever your IDE setup expects libs).
 
 ##Setup
-Calibration constants in main.ino should be adjusted to suit the actual sensors.
+Calibration constants in ArduinoPowerMonitor.ino should be adjusted to suit the actual sensors. For more readable output during calibration, enable calibration mode.
 
 ##Output
 Measured data will be output to serial port in a format of:
