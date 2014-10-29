@@ -3,7 +3,7 @@ EnergyMonitor emon1;             // Create an instance
 EnergyMonitor emon2;             // Create an instance 
 EnergyMonitor emon3;             // Create an instance 
 
-#define CALIBRATION_MODE       // Uncomment for calibration mode (outputs less data)
+//#define CALIBRATION_MODE       // Uncomment for calibration mode (outputs less data)
 
 void setup()
 {
