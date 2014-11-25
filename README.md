@@ -19,7 +19,7 @@ Measured data will be output to serial port in a format of:
 
 
 #Flow meter support
-The code also support [Grundfos VFS 5-100 QT]() flow meter connected on pins A6 (flow) and A7 (temp).
+The code also support [Grundfos VFS 5-100 QT](https://github.com/pingec/ArduinoPowerMonitor/raw/master/resources/Grundfosliterature-3081237.pdf) flow meter connected on pins A6 (flow) and A7 (temp).
 To enable it, uncommet the FLOW_METER define.
 
 **Be aware that enabling this will change the output format!**
